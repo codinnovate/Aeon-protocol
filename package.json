@@ -1,0 +1,25 @@
+{
+  "name": "aeon-protocol",
+  "version": "1.0.0",
+  "description": "CLI to diagnose and safely sell an ERC-20 on Robinhood Chain",
+  "type": "module",
+  "scripts": {
+    "build": "node api.js && tsc",
+    "diagnose": "tsx src/index.ts diagnose",
+    "quote": "tsx src/index.ts quote",
+    "simulate": "tsx src/index.ts simulate",
+    "sell": "tsx src/index.ts sell"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "viem": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
