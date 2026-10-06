@@ -4,7 +4,7 @@
   "description": "CLI to diagnose and safely sell an ERC-20 on Robinhood Chain",
   "type": "module",
   "scripts": {
-    "build": "node api.js && tsc",
+    "build": "tsc",
     "diagnose": "tsx src/index.ts diagnose",
     "quote": "tsx src/index.ts quote",
     "simulate": "tsx src/index.ts simulate",
